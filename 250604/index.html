@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sınav</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.min.css" integrity="sha512-xtV3HfYNbQXS/1R1jP53KbFcU9WXiSA1RFKzl5hRlJgdOJm4OxHCWYpskm6lN0xp0XtKGpAfVShpbvlFH3MDAA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.min.css" 
+    integrity="sha512-xtV3HfYNbQXS/1R1jP53KbFcU9WXiSA1RFKzl5hRlJgdOJm4OxHCWYpskm6lN0xp0XtKGpAfVShpbvlFH3MDAA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.1/css/dataTables.dataTables.min.css">
+
+  </head>
+  <body class="bg-primary">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#">WEB.2.2</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Anasayfa</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="iletisim.html">İletişim</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <h3 class="text-center">OWL CAROUSEL</h3>
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="card">
+                          <img src="https://picsum.photos/id/49/600/300" class="card-img-top img-fluid" alt="örnek resim">
+                        </div>
+                        <div class="card">
+                          <img src="https://picsum.photos/id/50/600/300" class="card-img-top img-fluid" alt="örnek resim">
+                        </div>
+                          <div class="card">
+                            <img src="https://picsum.photos/id/57/600/300" class="card-img-top img-fluid" alt="örnek resim">
+                          </div>
+                          <div class="card">
+                            <img src="https://picsum.photos/id/58/600/300" class="card-img-top img-fluid" alt="örnek resim">
+                          </div>
+                          <div class="card">
+                            <img src="https://picsum.photos/id/76/600/300" class="card-img-top img-fluid" alt="örnek resim">
+                          </div>
+                          <div class="card">
+                            <img src="https://picsum.photos/id/77/600/300" class="card-img-top img-fluid" alt="örnek resim">
+                          </div>
+                        </div>
+                </div>
+            </div>
+                    <!-- Lightbox2 -->
+                    <div class="row g-2">
+                        <h3 class="text-center">LIGHBOX</h3>
+                        <div class="col-3">
+                            <div class="card">
+                                <img src="https://picsum.photos/id/122/600/300" class="card-img-top" alt="örnek resim">
+                                <div class="card-body">
+                                  <a href="https://picsum.photos/id/122/1200/600" class="btn btn-primary" data-lightbox="res1" >Resmi Aç</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <img src="https://picsum.photos/id/128/600/300" class="card-img-top"  alt="örnek resim">
+                                <div class="card-body">
+                                  <a href="https://picsum.photos/id/128/1200/600" class="btn btn-primary" data-lightbox="res1" >Resmi Aç</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <img src="https://picsum.photos/id/124/600/300" class="card-img-top"  alt="örnek resim">
+                                <div class="card-body">
+                                  <a href="https://picsum.photos/id/124/1200/600" class="btn btn-primary" data-lightbox="res1" >Resmi Aç</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <img src="https://picsum.photos/id/156/600/300" class="card-img-top"  alt="örnek resim">
+                                <div class="card-body">
+                                  <a href="https://picsum.photos/id/156/1200/600" class="btn btn-primary" data-lightbox="res1" >Resmi Aç</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <img src="https://picsum.photos/id/163/600/300" class="card-img-top"  alt="örnek resim">
+                                <div class="card-body">
+                                  <a href="https://picsum.photos/id/163/1200/600" class="btn btn-primary" data-lightbox="res1" >Resmi Aç</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <img src="https://picsum.photos/id/164/600/300" class="card-img-top"  alt="örnek resim">
+                                <div class="card-body">
+                                  <a href="https://picsum.photos/id/164/1200/600" class="btn btn-primary" data-lightbox="res1" >Resmi Aç</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <table class="table" id="gezilecekYerler">
+                        <thead>
+                        <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Yer Adı</th>
+                        <th scope="col">Şehir</th>
+                        <th scope="col">Etkinlik</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                        <th scope="row">1</th>
+                        <td>Topkapı Sarayı</td>
+                        <td>İstanbul</td>
+                        <td>Müze Gezisi</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">2</th>
+                        <td>Ayasofya Camii</td>
+                        <td>İstanbul</td>
+                        <td>Tarihî İnceleme</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">3</th>
+                        <td>Kapalıçarşı</td>
+                        <td>İstanbul</td>
+                        <td>Alışveriş ve Kültür Turu</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">4</th>
+                        <td>Uludağ</td>
+                        <td>Bursa</td>
+                        <td>Doğa Yürüyüşü</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">5</th>
+                        <td>Yeşil Türbe</td>
+                        <td>Bursa</td>
+                        <td>Tarihî Ziyaret</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">6</th>
+                        <td>Assos Antik Kenti</td>
+                        <td>Çanakkale</td>
+                        <td>Arkeolojik Gezi</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">7</th>
+                        <td>Truva Antik Kenti</td>
+                        <td>Çanakkale</td>
+                        <td>Tarihî Keşif</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">8</th>
+                        <td>Bozcaada</td>
+                        <td>Çanakkale</td>
+                        <td>Adada Serbest Zaman</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">9</th>
+                        <td>Pamukkale Travertenleri</td>
+                        <td>Denizli</td><td>Doğa Harikası Ziyareti</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">10</th>
+                        <td>Efes Antik Kenti</td>
+                        <td>İzmir</td>
+                        <td>Tarihî Gezi</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">11</th>
+                        <td>Göreme Açık Hava Müzesi</td>
+                        <td>Nevşehir</td>
+                        <td>Kültürel Turu</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">12</th>
+                        <td>Uçhisar Kalesi</td>
+                        <td>Nevşehir</td>
+                        <td>Manzara İzleme</td>
+                        </tr>
+                        </tbody>
+                        </table>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    
+    <!-- Lightbox2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js" integrity="sha512-KbRFbjA5bwNan6DvPl1ODUolvTTZ/vckssnFhka5cG80JVa5zSlRPCr055xSgU/q6oMIGhZWLhcbgIC0fyw3RQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- Owl Carousel2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- Include the Quill library -->
+    <script src="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.js"></script>
+
+    <script src="https://cdn.datatables.net/2.3.1/js/dataTables.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+          $('.owl-carousel').owlCarousel({
+            loop: true,         // Sonsuz döngü aktif
+            margin: 10,         // Öğeler arası boşluk
+            autoplay: true,        // Otomatik oynatma
+            nav: true,          // Önceki/sonraki oklar
+            dots: true,         // Alt kısımdaki küçük navigasyon noktaları
+            responsive: {
+              0:    { items: 1 },
+              576:  { items: 2 },
+              768:  { items: 3 },
+              992:  { items: 4 }
+            }
+          });
+        });
+      </script>
+
+<script>
+    let table = new DataTable('#gezilecekYerler');
+</script>
+</body>
+</html>
